@@ -11,5 +11,5 @@ function ageInDays(){
 
 function reset ()
 {
-    document.getElementById("result").remove();
+    document.getElementById("ageInDays").remove();
 }

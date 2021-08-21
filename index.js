@@ -4,7 +4,7 @@ function ageInDays(){
     let ans = (year-birthyear)*365;
     let h1 = document.createElement("h1");
     let result = document.createTextNode("You are "+ans+" days  old.");
-    // h1.setAttribute("id","ageInDays");
+    h1.setAttribute("id","ageInDays");
     h1.appendChild(result);
     document.getElementById("result").appendChild(h1);
 }
